@@ -1,0 +1,10 @@
+<div class="app">
+  <ng-container *ngIf="stream$ | async as stream">
+   <div class="app__row">
+     <div>Первый стрим {{stream1$ | async}}</div>
+     <div>Второй стрим {{stream2$ | async}}</div>
+     <div>Третий стрим {{stream3$ | async}}</div>
+   </div>
+  </ng-container>
+  <button (click)="onUpdate()">update</button>
+</div>

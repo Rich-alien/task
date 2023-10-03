@@ -1,0 +1,6 @@
+.app__row{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  height: 25px;
+}
